@@ -1,6 +1,7 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 require("./tasks/block-number");
+require("./tasks/accounts");
 
 module.exports = {
   defaultNetwork: "hardhat",
